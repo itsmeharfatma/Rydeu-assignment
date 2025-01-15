@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+## Help & Support Page UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project implements a responsive Help & Support Page UI using React.js and Tailwind CSS. The design provides users with a friendly interface for accessing FAQs, travel guides, chats, social media links, and a query submission form. The page is optimized for both desktop and mobile devices.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+1. Navbar:
 
-### `npm start`
+Includes logo and navigation options (e.g., Help, Language switcher, Currency selector).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Hero Section:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A greeting message: "Hello, how can we help you?"
 
-### `npm test`
+A subheading with options to find travel guides, FAQs, and more.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Card Layout:
+
+FAQ and Travel Guide cards, each displaying relevant information.
+
+4. Accordion Sections:
+
+5. Chat Options: Includes links to platforms like Telegram, WhatsApp, and Live Chat.
+
+6. Social Links: Icons linking to popular social media platforms (Facebook, Instagram, Twitter, LinkedIn).
+
+7. Send Query: A form with fields for name, email, subject, order number, and query description.
+
+8. Mobile Responsiveness:
+
+Optimized layout for smaller screens.
+
+Collapsible sections for better usability on mobile devices.
+
+## Tech Stack
+
+1. React.js: Used for creating reusable and modular components.
+
+2. Tailwind CSS: Utilized for styling and ensuring responsiveness.
+
+
+## Installation
+
+Clone the Repository:
+
+### `git clone https://github.com/itsmeharfatma/Rydeu-assignment.git`
+
+Install Dependencies:
+
+### `npm install`
+
+Start the Development Server:
+
+### `npm run start`
+
+Open in Browser:
+
+Navigate to http://localhost:3000 to view the application.
+
+## Future Enhancements
+
+1. Add animations for transitions in accordion sections.
+
+2. Integrate backend APIs for query submission and real-time chat.
+
+3. Include multi-language support for a better user experience.
+
+## Deployment
+
+1. Build for Production:
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Deploy on Vercel:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Create a Vercel account and link your GitHub repository.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Deploy the application directly from the Vercel dashboard.
