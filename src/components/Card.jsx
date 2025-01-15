@@ -6,7 +6,7 @@ const Card = ({ title, subTitle, icon, width }) => {
       <div className="flex flex-row gap-4 sm:gap-6">
         <img src={icon} alt="icon" width={width} />
         <div className="flex flex-col gap-1">
-          <h4 className="font-bold text-[#484848] tracking-wide">{title}</h4>
+          <h4 className="font-bold text-[#484848] tracking-wide cursor-pointer hover:underline">{title}</h4>
           <p className="text-sm text-[#A8A8A8]">{subTitle}</p>
         </div>
       </div>
