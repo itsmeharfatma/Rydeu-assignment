@@ -6,17 +6,17 @@ This project implements a responsive Help & Support Page UI using React.js and T
 
 1. Navbar:
 
-Includes logo and navigation options (e.g., Help, Language switcher, Currency selector).
+- Includes logo and navigation options (e.g., Help, Language switcher, Currency selector).
 
 2. Hero Section:
 
-A greeting message: "Hello, how can we help you?"
+- A greeting message: "Hello, how can we help you?"
 
-A subheading with options to find travel guides, FAQs, and more.
+- A subheading with options to find travel guides, FAQs, and more.
 
 3. Card Layout:
 
-FAQ and Travel Guide cards, each displaying relevant information.
+- FAQ and Travel Guide cards, each displaying relevant information.
 
 4. Accordion Sections:
 
@@ -28,9 +28,9 @@ FAQ and Travel Guide cards, each displaying relevant information.
 
 8. Mobile Responsiveness:
 
-Optimized layout for smaller screens.
+- Optimized layout for smaller screens.
 
-Collapsible sections for better usability on mobile devices.
+- Collapsible sections for better usability on mobile devices.
 
 ## Tech Stack
 
@@ -73,6 +73,6 @@ Navigate to http://localhost:3000 to view the application.
 
 2. Deploy on Vercel:
 
-Create a Vercel account and link your GitHub repository.
+- Create a Vercel account and link your GitHub repository.
 
-Deploy the application directly from the Vercel dashboard.
+- Deploy the application directly from the Vercel dashboard.
